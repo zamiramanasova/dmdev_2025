@@ -4,7 +4,7 @@ package levelOne.task;
  * Дан порядковый номер месяца.
  * Вывести на консоль пору года, к которой относится месяц
  */
-public class TaskOne {
+public class Task1 {
     public static void main(String[] args) {
         int month = 13;
         // зима = 12, 1, 2

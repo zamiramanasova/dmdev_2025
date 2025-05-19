@@ -7,7 +7,7 @@ package levelOne.task;
  * Однако, если год делится также на 100,
  * то этот год не високосный, за исключением годов, делящихся на 400
  */
-public class TaskFour {
+public class Task4 {
     public static void main(String[] args) {
         int year = 1900;
         if (year % 400 == 0 || (year % 4 == 0 && year % 100 != 0)) {
