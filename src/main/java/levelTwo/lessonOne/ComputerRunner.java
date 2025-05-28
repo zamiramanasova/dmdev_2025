@@ -13,6 +13,7 @@ public class ComputerRunner {
         System.out.println("=====");
         Computer computer2 = new Computer(10000, 10000);
         computer2.printState();
+        computer1.load(true);
         System.out.println("=====");
     }
 }

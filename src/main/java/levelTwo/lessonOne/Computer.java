@@ -2,9 +2,9 @@ package levelTwo.lessonOne;
 
 public class Computer {
     int ssd = 500;
-    int ram = 1024;
+    long ram = 1024;
 
-    Computer(int newSsd, int newRam) {
+    Computer(int newSsd, long newRam) {
         this.ssd = newSsd;
         this.ram = newRam;
     }
@@ -19,6 +19,13 @@ public class Computer {
 
     void load() {
         System.out.println("I downloaded");
+    }
+
+    void load(boolean open) {
+        System.out.println("I downloaded");
+        if (open) {
+            System.out.println("i open");
+        }
     }
 
     void printState() {
