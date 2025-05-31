@@ -10,8 +10,4 @@ public class TimeInterval {
         this.minutes = minutes;
         this.hours = hours;
     }
-
-    public int totalSeconds() {
-        return seconds + minutes * 60 + hours *
-    }
 }
