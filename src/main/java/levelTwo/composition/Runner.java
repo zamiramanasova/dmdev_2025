@@ -6,6 +6,9 @@ public class Runner {
         Ssd ssd = new Ssd(500);
         Computer computer = new Computer(ssd, ram);
         computer.load();
-        double sin = Math.sin(2.5);
+
+        LapTop lapTop = new LapTop(new Ssd(512), new Ram(250), 2);
+        lapTop.open();
+        lapTop.load();
     }
 }
