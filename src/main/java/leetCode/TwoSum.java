@@ -1,4 +1,4 @@
-package aida;
+package leetCode;
 
 import java.util.HashMap;
 

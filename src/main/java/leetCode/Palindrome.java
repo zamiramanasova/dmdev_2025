@@ -2,11 +2,11 @@ package leetCode;
 
 import java.util.Scanner;
 
-public class Polindrome {
+public class Palindrome {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String text = sc.next();
-        Boolean reversed2 = reverseString(text);
+        boolean reversed2 = reverseString(text);
         System.out.println(reversed2);
 
     }
