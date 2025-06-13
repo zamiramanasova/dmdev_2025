@@ -1,6 +1,8 @@
 package levelTwo.practiceOop;
 
-public class Warrior extends Hero{
+import levelTwo.genericsPackages.weapon.MeleeWeapon;
+
+public class Warrior<T extends MeleeWeapon> extends Hero<T>{
     public Warrior(String name, int damage) {
         super(name, damage);
     }
