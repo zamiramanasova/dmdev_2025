@@ -7,7 +7,14 @@ public class ListRunner {
         list.add("String2");
         list.add("String3");
 
-        Object element = list.get(1);
-        System.out.println(element);
+        for (String value : list) {
+            System.out.println(value);
+        }
+        System.out.println("===");
+        //или с помощью стрима
+        list.iterator().forEachRemaining(System.out::println);
+        System.out.println("===");
+        //или вызвать метод у листа
+        list.forEach(System.out::println);
     }
 }
