@@ -1,5 +1,6 @@
 package leetCode;
 
+import java.util.Arrays;
 import java.util.HashMap;
 
 /**
@@ -16,7 +17,7 @@ public class TwoSum {
         int[] result = twoSum(array, -8);
         System.out.println(result[0] == 2);
         System.out.println(result[1] == 4);
-        return;
+        System.out.println(Arrays.toString(result));
 
     }
 
