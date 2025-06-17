@@ -17,7 +17,7 @@ import java.util.Scanner;
 public class BestTimeToBuyAndSellStock {
 // правило покупай дешево продавай дорого
 // используется паттерн sliding window
-// left right
+// Left Right
 // maxProfit = R - L if R > L если не удовлетворяет условию то меняем местами L and R
 // то есть дальше проходим по массиву например 7 1 5 3 6 4
 //                                             L R        мы видим что условию не соответствует
