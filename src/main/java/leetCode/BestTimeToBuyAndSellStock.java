@@ -1,7 +1,5 @@
 package leetCode;
 
-import java.util.Scanner;
-
 /**
  * Вам дается массив, в котором указана цена данной
  * акции на текущий день.prices prices[i]ith
