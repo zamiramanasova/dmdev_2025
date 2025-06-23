@@ -49,7 +49,7 @@ public class ValidAnagram {
 
         for (int i = 0; i < s.length(); i++) {
             charCounter[s.charAt(i) - 'a']++;//проверка идет с нуля
-            charCounter[t.charAt(i) - 'a']++;//проверка идет с конца
+            charCounter[t.charAt(i) - 'a']--;//проверка идет с конца
         }
         for (int counter : charCounter) {
             if(counter != 0) {//если один из контеров равно нулю
