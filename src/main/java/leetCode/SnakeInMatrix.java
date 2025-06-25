@@ -1,7 +1,5 @@
 package leetCode;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Scanner;
+import java.util.*;
 
 /**
  * Есть змейка в матрице и может двигаться в четырех
@@ -29,28 +27,34 @@ import java.util.Scanner;
 
 public class SnakeInMatrix {
     public static void main(String[] args) {
-        List<String> steps = new ArrayList<>();
-        steps.add("DOWN");
-        steps.add("RIGHT");
-        steps.add("DOWN");
-        //steps.add("LEFT");
+        Scanner sc = new Scanner(System.in);
+        int num = sc.nextInt();
+        String text = sc.next();
+        List<String> steps = new ArrayList<>(Arrays.asList(text));
+//        steps.add("UP");
+//        steps.add("DOWN");
+//        steps.add("RIGHT");
+//        steps.add("LEFT");
 
-        int n = 3;
+        //int n = 2;
 
-        System.out.println(finalPositionOfSnake(n, steps));
+        System.out.println(finalPositionOfSnake(num, steps));
     }
 
     public static int finalPositionOfSnake(int n, List<String> commands) {
-        int x = 0, y = 0;
+        int row = 0, col = 0;
 
         for (String count : commands) {
-            switch (count) {
-                case "UP" -> x--;
-                case "RIGHT" -> x++;
-                case "DOWN" -> y--;
-                case "LEFT" -> y++;
+            if (count.equals("UP")) {
+                row--;
+            } else if (count.equals("DOWN")) {
+                row++;
+            } else if (count.equals("RIGHT")) {
+                col++;
+            } else if (count.equals("LEFT")) {
+                col--;
             }
         }
-        return x * n + y;
+        return row * n + col;
     }
 }
