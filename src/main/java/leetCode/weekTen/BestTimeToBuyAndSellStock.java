@@ -1,4 +1,4 @@
-package leetCode;
+package leetCode.weekTen;
 
 /**
  * Вам дается массив, в котором указана цена данной

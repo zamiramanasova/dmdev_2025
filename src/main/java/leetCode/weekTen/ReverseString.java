@@ -1,4 +1,4 @@
-package leetCode;
+package leetCode.weekTen;
 
 /**
  * Напишите функцию, которая переворачивает строку.
@@ -14,9 +14,9 @@ public class ReverseString {
     //потом чтобы это все написать в массив char[] преобразовываем в char через метод toCharArray
     public static void main(String[] args) {
         char[] array = new char[]{'h','e','l','l','o'};
-        char[] array1 = new StringBuilder().append(array).reverse().toString().toCharArray();
-        System.arraycopy(array1,0,array,0,array.length);
-        System.out.println(array1);
+//        char[] array1 = new StringBuilder().append(array).reverse().toString().toCharArray();
+//        System.arraycopy(array1,0,array,0,array.length);
+//        System.out.println(array1);
 
         System.out.println(reverseString(array));
 
