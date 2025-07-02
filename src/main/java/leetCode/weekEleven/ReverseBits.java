@@ -11,7 +11,6 @@ public class ReverseBits {
         System.out.println(reverseBits(a));
 
     }
-
     public static int reverseBits(int n) {
         // Делает строку длиной ровно 32 символа.
         //Формат %32s означает:
