@@ -27,7 +27,7 @@ public class ExceptionExample {
         }
     }
 
-    public static void unsafe(int value) throws FileNotFoundException, TimeoutException {
+    public static void unsafe(int value) throws FileNotFoundException{
         System.out.println("unsafe start");
         if (value > 0) {
             throw new FileNotFoundException();
