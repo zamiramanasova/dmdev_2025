@@ -15,7 +15,6 @@ public class ExceptionExample {
             System.out.println("finally");
         }
         System.out.println("main end");
-
     }
     public static int finallyTest() {
         try {
@@ -26,7 +25,6 @@ public class ExceptionExample {
             return 4;
         }
     }
-
     public static void unsafe(int value) throws FileNotFoundException{
         System.out.println("unsafe start");
         if (value > 0) {
