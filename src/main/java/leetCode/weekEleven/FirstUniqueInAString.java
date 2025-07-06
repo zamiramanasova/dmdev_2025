@@ -12,7 +12,7 @@ package leetCode.weekEleven;
  */
 public class FirstUniqueInAString {
     public static void main(String[] args) {
-        String s = "aa";
+        String s = "leetcodel";
         System.out.println(firstUniqueChar(s));
 
     }
