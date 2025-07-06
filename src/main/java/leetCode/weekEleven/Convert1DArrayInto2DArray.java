@@ -36,5 +36,6 @@ public class Convert1DArrayInto2DArray {
             }
         }
         return ans;
+        //Работает за O(N) времени
     }
 }
