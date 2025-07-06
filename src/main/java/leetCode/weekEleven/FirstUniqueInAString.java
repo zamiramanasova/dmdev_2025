@@ -1,8 +1,18 @@
 package leetCode.weekEleven;
 
+/**
+ * Задана строка s, найдите в ней первый неповторяющийся символ и
+ * верните его индекс. Если он не существует, верните значение -1.
+ * Пример 1:
+ * Ввод: s = "leetcode"
+ * Вывод: 0
+ * Объяснение:
+ * Символ "l" с индексом 0 является первым символом,
+ * который не встречается ни в одном другом индексе.
+ */
 public class FirstUniqueInAString {
     public static void main(String[] args) {
-        String s = "leetcode";
+        String s = "aa";
         System.out.println(firstUniqueChar(s));
 
     }
@@ -24,6 +34,8 @@ public class FirstUniqueInAString {
             //Он помогает нам запомнить: «уникальный ли текущий символ или нет».
             boolean isUnique = true;
             for (int j = 0; j < charsArray.length; j++) {
+                //если индекс i не равно индексу j  и элемент charsArray[i] равно элементу charsArray[j]
+                // то уникальности нет и это ложь
                 if (i != j && charsArray[i] == charsArray[j]) {
                     isUnique = false;
                     break;
