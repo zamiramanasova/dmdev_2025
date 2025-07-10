@@ -19,6 +19,7 @@ public class BackspaceStringCompare {
         String finalS = build(s);
         String finalT = build(t);
         return finalS.equals(finalT);
+
     }
 
     private static String build(String str) {
