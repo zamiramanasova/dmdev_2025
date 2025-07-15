@@ -1,5 +1,8 @@
 package levelTwo.dateTime;
 
+import java.time.LocalDateTime;
+import java.time.LocalTime;
+import java.time.ZoneOffset;
 import java.time.ZonedDateTime;
 import java.time.temporal.ChronoUnit;
 
@@ -17,6 +20,10 @@ public class DateTimeDemo {
         ZonedDateTime zonedDateTime = now.truncatedTo(ChronoUnit.DAYS);
         System.out.println(zonedDateTime);
 
+        LocalDateTime localDateTime = LocalDateTime.now(ZoneOffset.UTC);
+        System.out.println(localDateTime);
 
+        LocalTime now1 = LocalTime.now();
+        System.out.println(now1);
     }
 }
