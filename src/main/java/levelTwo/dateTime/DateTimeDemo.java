@@ -13,5 +13,10 @@ public class DateTimeDemo {
 
         ZonedDateTime plus = now.plus(1L, ChronoUnit.DAYS);
         System.out.println(plus);
+
+        ZonedDateTime zonedDateTime = now.truncatedTo(ChronoUnit.DAYS);
+        System.out.println(zonedDateTime);
+
+
     }
 }
