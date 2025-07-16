@@ -3,7 +3,7 @@ package leetCode.weekThirteen;
 import java.util.Arrays;
 
 /**
- *
+ Вернуть квадрат элементов в массиве.
  */
 public class SquaresOfASortedArray {
     public static void main(String[] args) {
