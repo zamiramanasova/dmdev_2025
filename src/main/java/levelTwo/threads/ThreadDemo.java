@@ -2,10 +2,16 @@ package levelTwo.threads;
 
 public class ThreadDemo {
     public static void main(String[] args) {
-        SimpleThread simpleThread = new SimpleThread();
+        var simpleThread = new SimpleThread();
+        var simpleRunnable = new Thread(new SimpleRunnable(), "My name");
+        var lambda = new Thread(() -> System.out.println("Hello from lambda: " + Thread.currentThread().getName()));
         simpleThread.start();
+        simpleRunnable.start();
+        lambda.start();
         try {
             simpleThread.join();
+            simpleRunnable.join();
+            lambda.join();
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
