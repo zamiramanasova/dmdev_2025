@@ -27,6 +27,7 @@ public class CounterDemo {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
+
         System.out.println(counter.getCount());
     }
 }
