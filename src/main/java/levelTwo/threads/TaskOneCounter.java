@@ -13,10 +13,13 @@ public class TaskOneCounter {
     private int count;
 
     public void increment() {
-       count++;
+        synchronized (this) {
+            count++;
+        }
+
     }
 
-    public void decrement() {
+    public synchronized void decrement() {
         count--;
     }
 
