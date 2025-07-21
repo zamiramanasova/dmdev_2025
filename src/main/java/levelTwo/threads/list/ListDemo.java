@@ -33,5 +33,7 @@ public class ListDemo {
         listThread6.join();
         listThread7.join();
         listThread8.join();
+
+        System.out.println(integers);
     }
 }
