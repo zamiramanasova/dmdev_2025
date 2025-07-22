@@ -1,5 +1,4 @@
 package levelTwo.threads.list;
-
 import java.util.List;
 
 public class ListThread extends Thread {
