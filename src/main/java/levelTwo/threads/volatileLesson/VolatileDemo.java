@@ -7,7 +7,7 @@ public class VolatileDemo {
     public static void main(String[] args) {
         Thread thread1 = new Thread(() -> {
             while (!flag) {
-                System.out.println("still false");
+                System.out.println("thread1 still false");
             }
         });
         thread1.start();
