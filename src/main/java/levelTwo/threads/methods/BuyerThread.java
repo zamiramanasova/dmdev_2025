@@ -9,11 +9,12 @@ public class BuyerThread implements Runnable {
     public BuyerThread(Queue<Cashbox> cashboxes) {
         this.cashboxes = cashboxes;
     }
+
     @Override
     public void run() {
         try {
+            synchronized (cashboxes) {
             while (true) {
-                synchronized (cashboxes) {
                     if (!cashboxes.isEmpty()) {
                         Cashbox cashbox = cashboxes.remove();
                         System.out.println(Thread.currentThread().getName() + " обслуживание на кассе " + cashbox);
