@@ -13,6 +13,7 @@ public class BuyerThread implements Runnable {
     public void run() {
         try {
             synchronized (cashboxes) {
+
             while (true) {
                     if (!cashboxes.isEmpty()) {
                         Cashbox cashbox = cashboxes.remove();
