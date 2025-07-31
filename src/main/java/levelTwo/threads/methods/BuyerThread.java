@@ -15,6 +15,7 @@ public class BuyerThread implements Runnable {
             synchronized (cashboxes) {
 
             while (true) {
+
                     if (!cashboxes.isEmpty()) {
                         Cashbox cashbox = cashboxes.remove();
                         System.out.println(Thread.currentThread().getName() + " обслуживание на кассе " + cashbox);
