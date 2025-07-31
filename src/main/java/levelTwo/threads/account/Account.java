@@ -9,6 +9,18 @@ public class Account {
         this.money = money;
         this.id = generator++;
     }
+
+    public void add(int money) {
+        this.money += money;
+    }
+    public boolean takeOff(int money) {
+        if (this.money >= money) {
+            this.money -= money;
+            return true;
+        }
+        return false;
+    }
+
     @Override
     public String toString() {
         return "Account{" +
