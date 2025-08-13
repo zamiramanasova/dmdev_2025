@@ -17,7 +17,7 @@ public class IntersectionOfTwoArrays350PartTwo {
             for (int j = 0; j < m; j++) {
                 if (nums1[i] == nums2[j]) {
                     ans.add(nums1[i]);
-                    nums2[j] = -1;
+                    nums2[j] = -1;//это -1 добавлена в целях избежания проверки одних и тех же индексов
                     break;
                 }
             }
