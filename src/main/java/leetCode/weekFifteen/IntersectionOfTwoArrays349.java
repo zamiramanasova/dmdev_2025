@@ -4,6 +4,12 @@ import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Set;
 
+/**
+ * 1. Прочитать проблему
+ * 2. Понять задачу полностью
+ * 3. Come up with brute force (time complexity) + space complexity
+ * 4. Optimize (time complexity) + space complexity
+ */
 public class IntersectionOfTwoArrays349 {
     public static void main(String[] args) {
         int[] nums1 = new int[] {1,2,2,1};
@@ -19,7 +25,7 @@ public class IntersectionOfTwoArrays349 {
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < m; j++) {
                 if (nums1[i] == nums2[j]) {
-                    set.add(nums1[i]);
+                    set.add(nums1[i]); //O(1) в среднем
                 }
             }
         }
