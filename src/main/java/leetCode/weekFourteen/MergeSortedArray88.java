@@ -13,7 +13,7 @@ public class MergeSortedArray88 {
     }
 
     public static void merge(int[] nums1, int m, int[] nums2, int n) {
-        int[] answer = new int[n + m];//создаем массив и хотим объеденить два массива
+        int[] answer = new int[n + m];//создаем массив и хотим объединить два массива
         int p1 = 0;// создаем поинтер для первого массива
         int p2 = 0;// создаем поинтер для второго массива
         //пока поинтеры меньше размера массива
