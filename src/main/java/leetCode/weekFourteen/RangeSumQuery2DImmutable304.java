@@ -24,17 +24,16 @@ public class RangeSumQuery2DImmutable304 {
                 {1, 2, 0, 1, 5},
                 {4, 1, 0, 1, 7},
                 {1, 0, 3, 0, 5},
-                {2, 1, 4, 3},
-                {1, 1, 2, 2},
-                {1, 2, 2, 4}
+                {2, 1, 4, 3, 0},
+                {1, 1, 2, 2, 0},
+                {1, 2, 2, 4, 0}
         };
-        int row1 = 2;
-        int row2 = 4;
-        int col1 = 3;
-        int col2 = 1;
+
         RangeSumQuery2DImmutable304 obj = new RangeSumQuery2DImmutable304(matrix);
-        int param_1 = obj.sumRegion(row1,col1,row2,col2);
-        System.out.println(param_1);
+
+        System.out.println(obj.sumRegion(2, 1, 4, 3)); // пример вызова
+        System.out.println(obj.sumRegion(1, 1, 2, 2)); // другой пример
+        System.out.println(obj.sumRegion(0, 0, 6, 4)); // вся матрица
     }
 
     public int sumRegion(int r1, int c1, int r2, int c2) {
