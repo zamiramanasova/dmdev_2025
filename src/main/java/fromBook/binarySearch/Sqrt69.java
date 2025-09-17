@@ -2,10 +2,11 @@ package fromBook.binarySearch;
 
 public class Sqrt69 {
     public static void main(String[] args) {
-
+        int x = 8;
+        System.out.println(mySqrt(x));
     }
 
-    public int mySqrt(int x) {
+    public static int mySqrt(int x) {
         if (x < 2)
             return x;
         int left = 1;
