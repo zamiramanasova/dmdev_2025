@@ -22,7 +22,7 @@ public class BinarySearch704 {
     public static int search2(int[] nums, int target) {
         int left = 0;
         int right = nums.length -1;
-        int mid = 0;
+        int mid;
         while (left <= right) {
             mid = left + (right - left) / 2;
             if (nums[mid] == target) {
