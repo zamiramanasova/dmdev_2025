@@ -10,6 +10,7 @@ public class RecOnTheClass {
         n = scanner.nextInt();
         rec(1, true, new ArrayList<Integer>());
         rec(1, false, new ArrayList<Integer>());
+
     }
     public static void rec(int ind, boolean taken, ArrayList<Integer> arr) {
         if (ind > n) {
