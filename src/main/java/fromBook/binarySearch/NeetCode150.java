@@ -20,6 +20,8 @@ package fromBook.binarySearch;
  */
 public class NeetCode150 {
     public static void main(String[] args) {
+        int[] nums = new int[]{-1,0,2,4,6,8};
+        int target = 4;
 
     }
 
