@@ -22,10 +22,10 @@ public class NeetCode150 {
     public static void main(String[] args) {
         int[] nums = new int[]{-1,0,2,4,6,8};
         int target = 4;
-
+        System.out.println(search(nums, target));
     }
 
-    public int search(int[] nums, int target) {
+    public static int search(int[] nums, int target) {
         int left = 0;
         int right = nums.length - 1;
 
