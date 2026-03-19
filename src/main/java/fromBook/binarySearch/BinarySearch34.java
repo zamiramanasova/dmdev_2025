@@ -8,7 +8,6 @@ package fromBook.binarySearch;
  * Примеры:
  * nums = [5,7,7,8,8,10], target = 8
  * ответ = [3,4]
-
  * nums = [5,7,7,8,8,10], target = 6
  * ответ = [-1,-1]
  */
