@@ -35,7 +35,6 @@ public class BinarySearch35 {
  * Это всё тот же бинарный поиск, только:
  * Если nums[mid] == target → вернуть mid.
  * Если nums[mid] < target → нужно двигать левую границу (left = mid + 1).
-
  * Если nums[mid] > target → нужно двигать правую границу (right = mid - 1).
  *
  * ⚡ Главное отличие:
