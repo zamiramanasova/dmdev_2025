@@ -36,7 +36,7 @@ public class BinarySearch35 {
  * Если nums[mid] == target → вернуть mid.
  * Если nums[mid] < target → нужно двигать левую границу (left = mid + 1).
  * Если nums[mid] > target → нужно двигать правую границу (right = mid - 1).
- *
+
  * ⚡ Главное отличие:
  * Когда цикл завершится (left > right), правильный ответ — это индекс left.
  * Потому что:
