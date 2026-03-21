@@ -42,7 +42,7 @@ public class BinarySearch704 {
  * Ищем 9.
  * left = 0, right = 5 → mid = 2 → nums[2] = 3.
  * Так как 3 < 9 → идём вправо → left = 3.
- *
+
  * left = 3, right = 5 → mid = 4 → nums[4] = 9.
  * Совпадение → возвращаем 4. ✅
  *
