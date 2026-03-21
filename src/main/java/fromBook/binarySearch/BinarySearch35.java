@@ -44,7 +44,6 @@ public class BinarySearch35 {
  * nums = [1,3,5,6], target = 2
  * mid = 1 → nums[mid]=3 > 2 → сдвигаем right.
  * left = 0, right = 0 → mid = 0 → nums[mid]=1 < 2 → сдвигаем left = 1.
-
  * left = 1, right = 0 → цикл остановился.
  * 👉 Ответ = left = 1 (вставляем на индекс 1).
  * Итог:
