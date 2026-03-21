@@ -48,7 +48,7 @@ public class BinarySearch35 {
  * 👉 Ответ = left = 1 (вставляем на индекс 1).
  * Итог:
  * Time Complexity: O(log n)
- *
+
  * Space Complexity: O(1)
  */
 }
