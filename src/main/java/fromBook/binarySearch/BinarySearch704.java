@@ -51,5 +51,5 @@ public class BinarySearch704 {
  * mid = 3 + 2 / 2
  * mid = 3 + 1
  * mid = 4
- *
+
  */
