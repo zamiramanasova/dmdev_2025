@@ -42,5 +42,4 @@ public class IterativeMethodforBinarySearchinJava {
         // No Element Found
         return -1;
     }
-
 }
