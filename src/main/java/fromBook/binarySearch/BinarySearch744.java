@@ -20,7 +20,6 @@ public class BinarySearch744 {
                 right = mid - 1; // ищем слева
             }
         }
-
         // если вышли за пределы массива, возвращаем первую букву
         return left < letters.length ? letters[left] : letters[0];
 
