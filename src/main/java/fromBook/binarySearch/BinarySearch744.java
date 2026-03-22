@@ -22,6 +22,5 @@ public class BinarySearch744 {
         }
         // если вышли за пределы массива, возвращаем первую букву
         return left < letters.length ? letters[left] : letters[0];
-
     }
 }
