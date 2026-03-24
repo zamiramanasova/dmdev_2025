@@ -21,6 +21,7 @@ public class WithoutBinarySearch1672 {
         }
         return maxWealthSoFar;
     }
+
     // Time complexity = O(n * m)
     // Space Complexity = O(1)
 }
