@@ -1,7 +1,6 @@
 package fromBook.binarySearch;
 
 
-
 public class WithoutBinarySearch1672 {
     public static void main(String[] args) {
         int[][] accounts = new int[][] {{1,2,3},
