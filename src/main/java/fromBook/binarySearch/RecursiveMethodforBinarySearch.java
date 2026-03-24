@@ -17,8 +17,7 @@ public class RecursiveMethodforBinarySearch {
             System.out.println("Element is present at index: " + res);
     }
 
-    static int binarySearch(int a[], int l, int r, int x)
-    {
+    static int binarySearch(int a[], int l, int r, int x) {
 
         if (r >= l) {
             int m = l + (r - l) / 2;
