@@ -1,6 +1,6 @@
 package fromBook.binarySearch;
 
-import java.util.Arrays;
+
 
 public class WithoutBinarySearch1672 {
     public static void main(String[] args) {
