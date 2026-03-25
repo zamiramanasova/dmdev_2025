@@ -37,7 +37,7 @@ public class RemoveElement {
         return k;
 
         //Время: O(n)
-        //
+
         //Память: O(1) — не создаём новых массивов
     }
 }
