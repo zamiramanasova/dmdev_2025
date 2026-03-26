@@ -15,6 +15,7 @@ public class RotateArray189 {
        for (int i = 0; i < length; i++) {
            result[(i + k) % length] = nums[i];
        }
+
        for (int i = 0; i < length; i++) {
            nums[i] = result[i];
        }
