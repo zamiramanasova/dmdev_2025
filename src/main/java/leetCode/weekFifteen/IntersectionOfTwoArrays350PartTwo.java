@@ -22,6 +22,7 @@ public class IntersectionOfTwoArrays350PartTwo {
                 }
             }
         }
+
         int[] answer = new int[ans.size()];
 
         int ind = 0;
