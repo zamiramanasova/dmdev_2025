@@ -29,6 +29,7 @@ public class SortArrayByParity2 {
         }
         return nums;
     }
+
     /**
      * Проверка результата
      *
