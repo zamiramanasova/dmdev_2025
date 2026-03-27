@@ -43,7 +43,7 @@ public class SortColors75 {
  * O(n)
  * где n — длина массива.
  * 💾 Память
- *
+
  * Используются только:
  *
  * три целых переменных (zeroInsertPosition, twoInsertPos, i),
