@@ -44,7 +44,7 @@ public class SortColors75 {
  * где n — длина массива.
  * 💾 Память
  * Используются только:
- *
+
  * три целых переменных (zeroInsertPosition, twoInsertPos, i),
  *
  * временная переменная temp в swap.
