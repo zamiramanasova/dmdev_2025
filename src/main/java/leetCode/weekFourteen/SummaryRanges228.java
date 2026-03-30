@@ -7,7 +7,6 @@ public class SummaryRanges228 {
     public static void main(String[] args) {
         int[] array = new int[] {0,1,2,4,5,7};
         System.out.println(summaryRanges(array));
-
     }
 
     public static List<String> summaryRanges(int[] nums) {
