@@ -1,6 +1,7 @@
 package leetCode.weekSixteen;
 
 import java.util.Arrays;
+
 //задачу нельзя решить умножением, такое условие
 public class ProductOfArrayExceptSelf238 {
     public static void main(String[] args) {
