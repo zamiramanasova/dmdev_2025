@@ -20,7 +20,7 @@ public class SubarraySumEqualsK560 {
          *  (nums[0] + nums[1] + ... + nums[R] - (nums[0] + nums[1] + ... + nums[L-1])
          *  prefix_sum[R]                      - prefix_sum[L-1]
          *  = nums[L] + nums[L+1] + ... + nums[R]
-         *
+
          * 1. sum of subarrays -> compute prefix sums, then answer for subarray (L,R)
          *                        is equal to (prefix_sum[R] - prefix_sum[L-1])
          *             i
