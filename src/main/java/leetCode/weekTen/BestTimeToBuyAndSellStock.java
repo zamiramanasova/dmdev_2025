@@ -39,7 +39,7 @@ public class BestTimeToBuyAndSellStock {
            int sell = prices[right]; //переменная цена продажи
 
            if (buy < sell) { //если цена покупки меньше цены продажи
-               maxProfit = Math.max(maxProfit, sell - buy);// то считаем профит и смотрим продавать или не продавать
+               maxProfit = Math.max(maxProfit, sell - buy); // то считаем профит и смотрим продавать или не продавать
            } else {
                left = right;// иначе ничего не делаем и перескакиваем этот день
            }
