@@ -43,7 +43,7 @@ public class BestTimeToBuyAndSellStock {
            } else {
                left = right; // иначе ничего не делаем и перескакиваем этот день
            }
-           ++right;//двигаем цикл на новую итерацию
+           ++right; //двигаем цикл на новую итерацию
        }
        return maxProfit;//возврат максимального профита
 
