@@ -34,7 +34,7 @@ public class BestTimeToBuyAndSellStock {
        int right = 1; //правый указатель на единицу
        int maxProfit = 0; //чтобы хранить макс профит
 
-       while(right < prices.length) {//цикл от нуля до конца массива цен
+       while(right < prices.length) { //цикл от нуля до конца массива цен
            int buy = prices[left];//переменная цена покупки
            int sell = prices[right];//переменная цена продажи
 
