@@ -29,7 +29,7 @@ public class NumberOfBits {
     // Нужно перевести число в строку
     // Потом пройти по символам
     // Каждую '1' проверить и прибавить к счётчику
-    //Итого: O(log n) по времени и по памяти (вся строка хранится)
+    // Итого: O(log n) по времени и по памяти (вся строка хранится)
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int number = sc.nextInt();
