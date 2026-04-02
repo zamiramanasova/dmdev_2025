@@ -39,7 +39,7 @@ public class NumberOfBits {
         char[] charBinary = binaryString.toCharArray();
         int result = 0;
 
-        //время О(n) Использует дополнительную память (строка и массив символов) Медленнее, создаёт строку
+        // время О(n) Использует дополнительную память (строка и массив символов) Медленнее, создаёт строку
         for (int i = 0; i < charBinary.length; i++) {
             result += Integer.parseInt(String.valueOf(charBinary[i]));
         }
