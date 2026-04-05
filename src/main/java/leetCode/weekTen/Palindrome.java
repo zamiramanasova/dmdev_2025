@@ -17,7 +17,7 @@ public class Palindrome {
         /**
          * Character.isLetterOrDigit(ch) — проверяет, является ли
          * символ буквой или цифрой.
-         *
+
          * Character.toLowerCase(ch) — чтобы игнорировать регистр.
          *
          * Два указателя (left, right) двигаются навстречу друг другу.
