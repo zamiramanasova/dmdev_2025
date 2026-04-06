@@ -10,7 +10,7 @@ public class ReverseString {
     // используется Стринг билдер строковый изменяющийся класс в отличии от Стринга
     // метод аппеенд для представления новойстроки, который переворачивается с конца с помощью reverse/
     // далее этот реверс представляет строковое отображение с помощью метода toString из класса Object
-    //потом чтобы это все написать в массив char[] преобразовываем в char через метод toCharArray
+    // потом чтобы это все написать в массив char[] преобразовываем в char через метод toCharArray
     public static void main(String[] args) {
         char[] array = new char[]{'h','e','l','l','o'};
 //        char[] array1 = new StringBuilder().append(array).reverse().toString().toCharArray();
