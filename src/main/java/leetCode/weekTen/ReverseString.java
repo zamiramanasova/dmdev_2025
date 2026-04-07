@@ -15,7 +15,7 @@ public class ReverseString {
         char[] array = new char[]{'h','e','l','l','o'};
     // char[] array1 = new StringBuilder().append(array).reverse().toString().toCharArray();
     // System.arraycopy(array1,0,array,0,array.length);
-    //     System.out.println(array1);
+    //    System.out.println(array1);
 
         System.out.println(reverseString(array));
 
