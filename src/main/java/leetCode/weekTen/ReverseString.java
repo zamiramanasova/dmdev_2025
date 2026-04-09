@@ -24,7 +24,7 @@ public class ReverseString {
     public static char[] reverseString(char[] number) {
         char[] input = {'h', 'e', 'l', 'l', 'o'};
     // char[] input = {'o','e','l','l','h'};
-   //        char[] input = {'o','l','l','e','h'};
+    //        char[] input = {'o','l','l','e','h'};
         for (int i = 0; i < input.length / 2; i++) {
             int leftIdx = i;
             int rightIdx = input.length - i - 1;
