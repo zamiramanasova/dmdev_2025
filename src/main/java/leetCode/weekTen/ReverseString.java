@@ -28,7 +28,7 @@ public class ReverseString {
         for (int i = 0; i < input.length / 2; i++) {
             int leftIdx = i;
             int rightIdx = input.length - i - 1;
-            //swap
+            // swap
             char temp = input[leftIdx]; //temp = 'h';
             input[leftIdx] = input[rightIdx]; //{'o','e','l','l','o'};
             input[rightIdx] = temp; //{'o','e','l','l','h'};
