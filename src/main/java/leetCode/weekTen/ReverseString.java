@@ -29,7 +29,7 @@ public class ReverseString {
             int leftIdx = i;
             int rightIdx = input.length - i - 1;
             // swap
-            char temp = input[leftIdx]; //temp = 'h';
+            char temp = input[leftIdx]; // temp = 'h';
             input[leftIdx] = input[rightIdx]; //{'o','e','l','l','o'};
             input[rightIdx] = temp; //{'o','e','l','l','h'};
         }
