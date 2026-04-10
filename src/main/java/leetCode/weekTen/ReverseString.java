@@ -20,6 +20,7 @@ public class ReverseString {
         System.out.println(reverseString(array));
 
     }
+
     // решение Данияра
     public static char[] reverseString(char[] number) {
         char[] input = {'h', 'e', 'l', 'l', 'o'};
