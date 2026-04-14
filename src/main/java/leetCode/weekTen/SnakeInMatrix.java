@@ -29,7 +29,7 @@ public class SnakeInMatrix {
         List<String> steps = new ArrayList<>(Arrays.asList(text));
         // steps.add("UP");
         // steps.add("DOWN");
-        //       steps.add("RIGHT");
+        //      steps.add("RIGHT");
         //       steps.add("LEFT");
 
         //int n = 2;
