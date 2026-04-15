@@ -30,7 +30,7 @@ public class SnakeInMatrix {
         // steps.add("UP");
         // steps.add("DOWN");
         // steps.add("RIGHT");
-        //   steps.add("LEFT");
+        //  steps.add("LEFT");
 
         //int n = 2;
 
