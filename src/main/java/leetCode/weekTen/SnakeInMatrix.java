@@ -20,7 +20,6 @@ import java.util.*;
  * Команды. Сложность пространства таковаO(1)..
  */
 
-
 public class SnakeInMatrix {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
