@@ -31,7 +31,6 @@ public class SnakeInMatrix {
         // steps.add("DOWN");
         // steps.add("RIGHT");
         // steps.add("LEFT");
-
         // int n = 2;
 
         System.out.println(finalPositionOfSnake(num, steps));
