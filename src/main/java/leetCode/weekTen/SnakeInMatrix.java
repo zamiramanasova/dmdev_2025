@@ -32,7 +32,7 @@ public class SnakeInMatrix {
         // steps.add("RIGHT");
         // steps.add("LEFT");
 
-        //int n = 2;
+        // int n = 2;
 
         System.out.println(finalPositionOfSnake(num, steps));
     }
