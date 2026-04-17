@@ -47,7 +47,7 @@ public class ValidAnagram {
         int[] charCounter = new int[26];
 
         for (int i = 0; i < s.length(); i++) {
-            charCounter[s.charAt(i) - 'a']++;//проверка идет с нуля
+            charCounter[s.charAt(i) - 'a']++;// проверка идет с нуля
             charCounter[t.charAt(i) - 'a']--;//проверка идет с конца
         }
         for (int counter : charCounter) {
