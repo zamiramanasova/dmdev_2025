@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 /**
- * Given two strings and , return if is an s t true t anagram of , and otherwise.s false
+ * Given two strings and, return if is an s t true t anagram of , and otherwise.s false
  * Example 1:
  * Input: s = "anagram", t = "nagaram"
  * Output: true
