@@ -29,7 +29,7 @@ public class ValidAnagram {
         if (s.length() != t.length()) {
             return false;
         }
-        //затем сравнить их соответствуют ли они по размеру
+        // затем сравнить их соответствуют ли они по размеру
         char[] s1 = s.toCharArray();
         char[] t1 = t.toCharArray();
         //сначала нужно отсортировать входные данные
