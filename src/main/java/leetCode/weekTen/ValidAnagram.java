@@ -43,7 +43,7 @@ public class ValidAnagram {
 
     // более сложное решение, сложное для понимания(для меня)
     public static boolean isAnagram(String s, String t) {
-        //создаем массив с размером 26 на весь алфавит
+        // создаем массив с размером 26 на весь алфавит
         int[] charCounter = new int[26];
 
         for (int i = 0; i < s.length(); i++) {
