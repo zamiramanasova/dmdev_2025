@@ -37,7 +37,7 @@ public class ValidAnagram {
         Arrays.sort(t1);
 
         return Arrays.equals(s1, t1);
-        //временная сложность log n
+        // временная сложность log n
         //по памяти О1
     }
 
