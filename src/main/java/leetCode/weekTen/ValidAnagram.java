@@ -25,7 +25,7 @@ public class ValidAnagram {
     }
 
     public static boolean check(String s, String t) {
-        //делаем проверку изначально
+        // делаем проверку изначально
         if (s.length() != t.length()) {
             return false;
         }
