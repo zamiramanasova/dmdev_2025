@@ -18,7 +18,7 @@ public class AddBinary67 {
         int i = a.length() - 1;
         int j = b.length() - 1;
         int carry = 0;
-        //пока есть цифры в а и b, или есть перенос
+        // пока есть цифры в а и b, или есть перенос
         while (i >= 0 || j >= 0 || carry != 0) {
             int digitA = (i >= 0) ? a.charAt(i) - '0' : 0;
             int digitB = (j >= 0) ? b.charAt(j) - '0' : 0;
