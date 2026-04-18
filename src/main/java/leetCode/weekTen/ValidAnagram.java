@@ -51,7 +51,7 @@ public class ValidAnagram {
             charCounter[t.charAt(i) - 'a']--;// проверка идет с конца
         }
         for (int counter : charCounter) {
-            if(counter != 0) {//если один из контеров равно нулю
+            if(counter != 0) {// если один из контеров равно нулю
                 return false;
             }
         }
