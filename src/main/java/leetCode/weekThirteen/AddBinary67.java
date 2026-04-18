@@ -24,7 +24,7 @@ public class AddBinary67 {
             int digitB = (j >= 0) ? b.charAt(j) - '0' : 0;
 
             int sum = digitA + digitB + carry;
-            result.append(sum % 2);// последняя цифра суммы 0 или 1
+            result.append(sum % 2); // последняя цифра суммы 0 или 1
             carry = sum / 2;//перенос на след. разряд
 
             i--;
