@@ -56,5 +56,5 @@ public class AddBinary67 {
     //
     // result = "001" → reverse → "100"
     //
-    //✅ ответ: "100"
+    // ✅ ответ: "100"
 }
