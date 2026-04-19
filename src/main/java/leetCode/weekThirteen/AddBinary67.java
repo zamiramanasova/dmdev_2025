@@ -44,7 +44,7 @@ public class AddBinary67 {
     //
     // i = 1, j = 0
     //
-    //1 + 1 + 0 = 2 → append 0, carry = 1
+    // 1 + 1 + 0 = 2 → append 0, carry = 1
     //
     //i = 0, j = -1
     //
