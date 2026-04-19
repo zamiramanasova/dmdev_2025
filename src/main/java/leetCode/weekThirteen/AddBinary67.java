@@ -52,7 +52,7 @@ public class AddBinary67 {
     //
     // i = -1, j = -1
     //
-    //0 + 0 + 1 = 1 → append 1
+    // 0 + 0 + 1 = 1 → append 1
     //
     //result = "001" → reverse → "100"
     //
