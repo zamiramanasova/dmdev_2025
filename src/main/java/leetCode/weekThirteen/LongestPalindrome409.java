@@ -33,7 +33,7 @@ public class LongestPalindrome409 {
         int length = 0;
         boolean hasOdd = false;
 
-        //проходим по всем частотам
+        // проходим по всем частотам
         for (int freg : count.values()) {
             if (freg % 2 == 0) {
                 length += freg; //можно взять все
