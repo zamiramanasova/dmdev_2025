@@ -24,7 +24,7 @@ public class LongestPalindrome409 {
         // буквы (например, 2x 'a', 2x 'b').
         // Можно включить только одну букву с нечётным
         // количеством в центр палиндрома.
-        //считаем количество каждой буквы
+        // считаем количество каждой буквы
         Map<Character, Integer> count = new HashMap<>();
         for (char c : s.toCharArray()) {
             count.put(c, count.getOrDefault(c, 0) + 1);
