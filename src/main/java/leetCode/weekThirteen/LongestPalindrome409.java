@@ -43,7 +43,7 @@ public class LongestPalindrome409 {
             }
         }
         if (hasOdd) {
-            length += 1; //добавляем один символ в центр
+            length += 1; // добавляем один символ в центр
         }
         return length;
     }
