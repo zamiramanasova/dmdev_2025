@@ -36,7 +36,7 @@ public class LongestPalindrome409 {
         // проходим по всем частотам
         for (int freg : count.values()) {
             if (freg % 2 == 0) {
-                length += freg; //можно взять все
+                length += freg; // можно взять все
             } else {
                 length += freg - 1; //оставляем одну лишнюю для середины
                 hasOdd = true; //запомним, что у нас есть хотя бы одна нечетная
