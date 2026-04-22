@@ -37,7 +37,7 @@ public class SpiralMatrix54 {
             }
             right--;
 
-            //справа налево
+            // справа налево
             if (top <= bottom) {
                 for (int i = right; i >= left; i--) {
                     result.add(matrix[bottom][i]);
