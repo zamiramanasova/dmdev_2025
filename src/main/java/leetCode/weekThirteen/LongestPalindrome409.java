@@ -38,7 +38,7 @@ public class LongestPalindrome409 {
             if (freg % 2 == 0) {
                 length += freg; // можно взять все
             } else {
-                length += freg - 1; //оставляем одну лишнюю для середины
+                length += freg - 1; // оставляем одну лишнюю для середины
                 hasOdd = true; //запомним, что у нас есть хотя бы одна нечетная
             }
         }
