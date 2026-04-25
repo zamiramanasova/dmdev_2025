@@ -62,7 +62,6 @@ public class SpiralMatrix54 {
     // top — верхняя граница ряда
     // bottom — нижняя граница ряда
     // left — левая граница колонки
-
     // right — правая граница колонки
     //
     // ✅ Пока top ≤ bottom и left ≤ right:
