@@ -17,7 +17,7 @@ public class SquaresOfASortedArray {
 
         int left = 0;
         int right = n - 1;
-        int pos = n - 1; //позиция куда записывать след.макс квадрат
+        int pos = n - 1; // позиция куда записывать след.макс квадрат
 
         while (left <= right) {
             int leftSquare = nums[left] * nums[left];
