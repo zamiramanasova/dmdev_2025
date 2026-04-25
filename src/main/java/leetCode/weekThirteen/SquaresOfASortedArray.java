@@ -34,7 +34,7 @@ public class SquaresOfASortedArray {
         }
         return result;
 
-        //Построчное объяснение
+        // Построчное объяснение
         //⭐ int left = 0;
         //начало массива
         //
