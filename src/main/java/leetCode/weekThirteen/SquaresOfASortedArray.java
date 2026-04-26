@@ -43,7 +43,7 @@ public class SquaresOfASortedArray {
         //
         //⭐ pos = n - 1;
         // записываем самые большие квадраты с конца результата
-        //while (left <= right)
+        // while (left <= right)
         //— продолжаем пока указатели не пересеклись.
         //
         //✅ На каждом шаге:
