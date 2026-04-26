@@ -38,7 +38,7 @@ public class SquaresOfASortedArray {
         // ⭐ int left = 0;
         // начало массива
         //
-        //⭐ int right = n - 1;
+        // ⭐ int right = n - 1;
         //конец массива
         //
         //⭐ pos = n - 1;
