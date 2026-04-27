@@ -39,7 +39,6 @@ public class SquaresOfASortedArray {
         // начало массива
         // ⭐ int right = n - 1;
         // конец массива
-
         //⭐ pos = n - 1;
         // записываем самые большие квадраты с конца результата
         // while (left <= right)
