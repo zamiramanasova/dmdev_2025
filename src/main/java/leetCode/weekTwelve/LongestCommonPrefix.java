@@ -1,7 +1,5 @@
 package leetCode.weekTwelve;
 
-import java.util.Arrays;
-
 public class LongestCommonPrefix {
     public static void main(String[] args) {
         String[] array = new String[] {"flower", "flow", "flight"};
