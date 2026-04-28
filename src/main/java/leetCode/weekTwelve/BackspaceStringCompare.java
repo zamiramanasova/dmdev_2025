@@ -32,5 +32,4 @@ public class BackspaceStringCompare {
         }
         return result.toString();
     }
-
 }
