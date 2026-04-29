@@ -22,7 +22,7 @@ public class LongestCommonPrefix {
         // Вход: ["flower", "flow", "flight"]
         // prefix = "flower"
         String prefix = strs[0];
-        //Начинаем с 1, потому что 0-ой элемент уже в prefix.
+        // Начинаем с 1, потому что 0-ой элемент уже в prefix.
         //Цель: проверить, подходит ли текущий префикс к каждой следующей строке.
         for (int i = 1; i < strs.length; i++) {
             //Пока строка strs[i] не начинается с prefix, будем укорачивать его.
