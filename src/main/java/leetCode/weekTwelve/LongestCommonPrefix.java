@@ -19,7 +19,7 @@ public class LongestCommonPrefix {
         // Почему? Потому что общий префикс не может быть
         // длиннее любой строки, особенно первой.
         // Пример:
-        //Вход: ["flower", "flow", "flight"]
+        // Вход: ["flower", "flow", "flight"]
         //prefix = "flower"
         String prefix = strs[0];
         //Начинаем с 1, потому что 0-ой элемент уже в prefix.
