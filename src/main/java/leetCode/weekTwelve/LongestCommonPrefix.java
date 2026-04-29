@@ -26,7 +26,7 @@ public class LongestCommonPrefix {
         // Цель: проверить, подходит ли текущий префикс к каждой следующей строке.
         for (int i = 1; i < strs.length; i++) {
             // Пока строка strs[i] не начинается с prefix, будем укорачивать его.
-            //Метод startsWith() проверяет, является ли prefix началом строки.
+            // Метод startsWith() проверяет, является ли prefix началом строки.
             //Пример:
             //i = 1, strs[1] = "flow"
             //"flow".startsWith("flower") ❌
