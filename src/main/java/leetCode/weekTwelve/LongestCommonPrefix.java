@@ -28,7 +28,7 @@ public class LongestCommonPrefix {
             // Пока строка strs[i] не начинается с prefix, будем укорачивать его.
             // Метод startsWith() проверяет, является ли prefix началом строки.
             // Пример:
-            //i = 1, strs[1] = "flow"
+            // i = 1, strs[1] = "flow"
             //"flow".startsWith("flower") ❌
             //укорачиваем
             while (!strs[i].startsWith(prefix)) {
