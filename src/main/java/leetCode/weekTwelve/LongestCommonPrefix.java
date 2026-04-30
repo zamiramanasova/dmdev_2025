@@ -29,7 +29,7 @@ public class LongestCommonPrefix {
             // Метод startsWith() проверяет, является ли prefix началом строки.
             // Пример:
             // i = 1, strs[1] = "flow"
-            //"flow".startsWith("flower") ❌
+            // "flow".startsWith("flower") ❌
             //укорачиваем
             while (!strs[i].startsWith(prefix)) {
                 if (prefix.length() == 0)
