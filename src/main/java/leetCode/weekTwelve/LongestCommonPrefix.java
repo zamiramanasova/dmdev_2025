@@ -30,7 +30,7 @@ public class LongestCommonPrefix {
             // Пример:
             // i = 1, strs[1] = "flow"
             // "flow".startsWith("flower") ❌
-            //укорачиваем
+            // укорачиваем
             while (!strs[i].startsWith(prefix)) {
                 if (prefix.length() == 0)
                     return "";
