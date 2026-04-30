@@ -46,7 +46,7 @@ public class RemoveDuplicatesFromSortedArrayII {
         }
         // Возвращаем количество уникальных элементов
         return i;
-        //Пусть nums = [1,1,1,2,2,3]
+        // Пусть nums = [1,1,1,2,2,3]
         //
         //Процесс будет таким:
         //
