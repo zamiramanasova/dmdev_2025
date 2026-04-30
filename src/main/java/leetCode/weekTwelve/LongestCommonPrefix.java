@@ -41,7 +41,7 @@ public class LongestCommonPrefix {
                 prefix = prefix.substring(0, prefix.length() - 1);
             }
         }
-        //После проверки всех строк возвращаем найденный общий префикс.
+        // После проверки всех строк возвращаем найденный общий префикс.
         return prefix;
     }
 }
