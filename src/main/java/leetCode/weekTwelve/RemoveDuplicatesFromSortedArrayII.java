@@ -50,7 +50,7 @@ public class RemoveDuplicatesFromSortedArrayII {
         //
         // Процесс будет таким:
         //
-        //i = 0, n = 1 → i < 2 → пишем → nums[0] = 1
+        // i = 0, n = 1 → i < 2 → пишем → nums[0] = 1
         //
         //i = 1, n = 1 → i < 2 → пишем → nums[1] = 1
         //
