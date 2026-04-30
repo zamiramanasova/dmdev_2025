@@ -34,7 +34,7 @@ public class LongestCommonPrefix {
             while (!strs[i].startsWith(prefix)) {
                 if (prefix.length() == 0)
                     return "";
-                //Урезаем последний символ.
+                // Урезаем последний символ.
                 //Это ключевая идея!
                 //Если префикс не подходит → пробуем его вариант короче на 1.
                 //Например: "flower" → "flowe" → "flow" → "flo" → ...
