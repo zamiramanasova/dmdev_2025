@@ -58,6 +58,6 @@ public class RemoveDuplicatesFromSortedArrayII {
         //
         // i = 2, n = 2 → 2 != 1 → пишем → nums[2] = 2
         //
-        //и так далее…
+        // и так далее…
     }
 }
