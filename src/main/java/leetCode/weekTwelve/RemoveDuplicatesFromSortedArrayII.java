@@ -48,7 +48,6 @@ public class RemoveDuplicatesFromSortedArrayII {
         // i = 0, n = 1 → i < 2 → пишем → nums[0] = 1
         // i = 1, n = 1 → i < 2 → пишем → nums[1] = 1
         // i = 2, n = 1 → nums[0] = 1 → n == nums[i - 2] → пропускаем
-
         // i = 2, n = 2 → 2 != 1 → пишем → nums[2] = 2
         //
         // и так далее…
