@@ -27,7 +27,7 @@ public class Task8 {
         int result = 0;
         int currentValue = value;
         while (currentValue != 0) {
-            //записали после остатка от 10 в резалт
+            // записали после остатка от 10 в резалт
             result += currentValue % 10;
             //после этого делим каррентвэлъю на 10
             currentValue /= 10;
