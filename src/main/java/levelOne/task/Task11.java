@@ -11,7 +11,7 @@ public class Task11 {
     }
 
     public static void letters() {
-        //цикл начинается с 'b', крутится до тех пор пока наша
+        // цикл начинается с 'b', крутится до тех пор пока наша
         // буква не гласная
         for (char letter = 'b'; !isVowel(letter); letter++) {
             System.out.println(letter);
