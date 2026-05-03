@@ -35,7 +35,7 @@ public class TaskArrayEquals {
         for (int i = 0; i < values1.length; i++) {
             int[] row1 = values1[i];
             int[] row2 = values2[i];
-            //Если длины соответствующих строк различны → массивы не равны.
+            // Если длины соответствующих строк различны → массивы не равны.
             if (row1.length != row2.length) {
                 return false;
             }
