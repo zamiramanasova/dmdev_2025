@@ -22,7 +22,7 @@ public class Task8 {
         return result;
     }
 
-    //здесь если даешь 123 = 1+2+3 = 6, если даешь 5 то даст 5
+    // здесь если даешь 123 = 1+2+3 = 6, если даешь 5 то даст 5
     public static int sum2(int value) {
         int result = 0;
         int currentValue = value;
