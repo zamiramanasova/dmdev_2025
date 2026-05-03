@@ -39,7 +39,7 @@ public class TaskArrayEquals {
             if (row1.length != row2.length) {
                 return false;
             }
-            //Сравниваются элементы строк row1 и row2 поэлементно.
+            // Сравниваются элементы строк row1 и row2 поэлементно.
             // Если найден хоть один элемент, который не равен →
             // возвращается false.
             for (int j = 0; j < row1.length; j++) {
