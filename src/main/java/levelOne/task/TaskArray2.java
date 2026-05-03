@@ -12,7 +12,7 @@ public class TaskArray2 {
     }
 
     public static void fillArray(int[] values) {
-        int currentIndex = 0;//создание переменной куда записываются значения
+        int currentIndex = 0;// создание переменной куда записываются значения
         for (int currentValue = 1; currentIndex < values.length; currentValue++) {
             if (currentValue % 13 == 0 || currentValue % 17 == 0) {
                 values[currentIndex] = currentValue;
