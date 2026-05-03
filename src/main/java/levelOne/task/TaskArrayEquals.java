@@ -25,7 +25,7 @@ public class TaskArrayEquals {
     // два двумерных массива и возвращает булевое
     // значение (true или false).
     public static boolean equals(int[][] values1, int[][] values2) {
-        //Если массивы имеют разное количество строк,
+        // Если массивы имеют разное количество строк,
         // они не равны → вернуть false.
         if (values1.length != values2.length) {
             return false;
