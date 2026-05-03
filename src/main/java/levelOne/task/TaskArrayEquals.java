@@ -17,7 +17,7 @@ public class TaskArrayEquals {
                 {5,2,8},
                 {9,10},
         };
-        //boolean result = equals(array1, array2);
+        // boolean result = equals(array1, array2);
         System.out.println(equals(array1, array2));
     }
 
