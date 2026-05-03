@@ -18,7 +18,7 @@ public class Task9 {
         double result = sourceSum;
         // год когда мы начнем получать проценты, условие год конечный, итерация
         for (int year = 1627; year <= 2020; year++) {
-            //годовой процент
+            // годовой процент
             double percent = result * 0.05;
             // записываем в наш резалт проценты
             result += percent;
