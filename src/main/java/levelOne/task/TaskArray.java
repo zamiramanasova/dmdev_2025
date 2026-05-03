@@ -32,7 +32,7 @@ public class TaskArray {
         System.out.println();
     }
 
-    //foreach
+    // foreach
     public static void printArrayForeach(int[] array) {
         for (int val : array) {
             System.out.print(val + " ");
