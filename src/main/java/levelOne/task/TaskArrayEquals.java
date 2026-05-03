@@ -30,7 +30,7 @@ public class TaskArrayEquals {
         if (values1.length != values2.length) {
             return false;
         }
-        //Проходим по всем строкам обоих массивов.
+        // Проходим по всем строкам обоих массивов.
         // На каждой итерации берутся соответствующие строки row1 и row2.
         for (int i = 0; i < values1.length; i++) {
             int[] row1 = values1[i];
