@@ -11,7 +11,7 @@ public class Lesson_2_7 {
         if (value == 1) {
            return 1;
         }
-        // 6* {5 * {4 * {3 * {2 * 1}}}}
+        // 6 * {5 * {4 * {3 * {2 * 1}}}}
         return value * factorial(value - 1);
     }
 }
