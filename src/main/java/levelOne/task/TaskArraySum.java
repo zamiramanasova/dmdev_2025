@@ -59,7 +59,6 @@ public class TaskArraySum {
         for (int i = minIndex + 1; i < maxIndex; i++) {
             result += values[i];
         }
-
         return result;
     }
 }
