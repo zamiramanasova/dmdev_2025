@@ -24,7 +24,7 @@ public class TaskArraySum {
         int minIndex = 0;
         // итерация по массиву по порядку
         for (int i = 0; i < values.length; i++) {
-            //и проверяем если minValue больше элемента value по индексу
+            // и проверяем если minValue больше элемента value по индексу
             //то нас это не удовлетворяет, наша задача найти мин элемент и присвоить
             if (minValue > values[i]) {
                 minValue = values[i];
