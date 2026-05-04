@@ -6,7 +6,7 @@ public class Lesson_2_5 {
         int value = 0;
         do {
             System.out.println(value);
-            value++; //value += 1; value = value + 1;
+            value++; // value += 1; value = value + 1;
         } while (value < 10);
     }
 
