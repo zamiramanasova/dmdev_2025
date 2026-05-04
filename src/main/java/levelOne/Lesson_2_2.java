@@ -14,6 +14,5 @@ public class Lesson_2_2 {
         value3 += 25;
         System.out.println(value3);
 
-
     }
 }
