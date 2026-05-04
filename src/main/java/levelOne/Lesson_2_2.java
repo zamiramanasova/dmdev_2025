@@ -10,7 +10,7 @@ public class Lesson_2_2 {
         int value3 = 5;
         value3 = value3 + 25;
         System.out.println(value3);
-        //либо упростить
+        // либо упростить
         value3 += 25;
         System.out.println(value3);
 
