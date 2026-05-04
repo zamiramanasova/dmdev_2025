@@ -7,7 +7,7 @@ public class Lesson_2_9 {
         values[0] = new int[5];
         values[1] = new int[2];
         values[2] = new int[1];
-        print(values);//выведет нам первое измерение,
+        print(values);// выведет нам первое измерение,
         //0 0 0 0 0
         //0 0
         //0
