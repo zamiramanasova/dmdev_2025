@@ -19,7 +19,7 @@ public class TaskArraySum {
 
     }
     public static int findMinIndex(int[] values) {
-        //сначала присваиваем любой элемент из массива в новую переменную
+        // сначала присваиваем любой элемент из массива в новую переменную
         int minValue = values[0];
         int minIndex = 0;
         //итерация по массиву по порядку
