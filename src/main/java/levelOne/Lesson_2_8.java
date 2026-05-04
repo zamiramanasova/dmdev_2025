@@ -3,7 +3,7 @@ package levelOne;
 public class Lesson_2_8 {
     public static void main(String[] args) {
         int[] values = new int[10];
-        //System.out.println(values[5]);
+        // System.out.println(values[5]);
         values[4] = 9;
         values[7] = 98;
 
