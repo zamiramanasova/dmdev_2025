@@ -4,7 +4,7 @@ import java.time.Duration;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 
-import java.time.temporal.ChronoUnit;
+
 
 /**
  * Даны два объекта LocalDate из предыдущего задания.
