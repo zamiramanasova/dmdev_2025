@@ -29,7 +29,7 @@ public class Lesson_2_9 {
                     {4, 5, 6},
                     {7, 8, 9},
             };
-            //идем по первому измерению это 1 2 3
+            // идем по первому измерению это 1 2 3
             for (int i = 0; i < array.length; i++) {
                 int[] ints = array[i];
                 for (int j = 0; j < ints.length; j++) {
