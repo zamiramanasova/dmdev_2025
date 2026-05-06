@@ -10,7 +10,7 @@ public class Lesson_2_9 {
         print(values);// выведет нам первое измерение,
         // 0 0 0 0 0
         // 0 0
-        //0
+        // 0
     }
 
     private static void print(int[][] values) {
