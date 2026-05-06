@@ -9,7 +9,7 @@ public class IteratorRunner {
         List<Integer> list = List.of(1,2,3,4,5,6);
         List<Integer> list2 = new ArrayList<>(list);
 
-        //цикл foreach только для чтения, тут нет удаления
+        // цикл foreach только для чтения, тут нет удаления
         for (Integer integer : list) {
             System.out.println(integer);
         }
