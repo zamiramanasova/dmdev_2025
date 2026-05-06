@@ -4,7 +4,6 @@ import java.time.Duration;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 
-
 /**
  * Даны два объекта LocalDate из предыдущего задания.
  * Подсчитать количество секунд между полуночью первой
