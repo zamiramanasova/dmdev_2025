@@ -34,6 +34,5 @@ public class BuyerThread implements Runnable {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-
     }
 }
