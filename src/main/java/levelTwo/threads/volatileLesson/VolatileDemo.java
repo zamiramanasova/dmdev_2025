@@ -18,5 +18,4 @@ public class VolatileDemo {
         });
         thread2.start();
     }
-
 }
