@@ -3,7 +3,7 @@ package levelTwo.threads;
 /**
  * Создать класс counter с одним полем
  * private int counter
- *
+
  * добавить методы
  * getCounter - для получ.поля каунт
  * increment - для увеличения значения поля на единицу
