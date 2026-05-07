@@ -17,6 +17,5 @@ public class Task7 {
         ZonedDateTime zonedDateTime = instant.atZone(ZoneId.of("Africa/Cairo"));
         System.out.println(zonedDateTime);
 
-
     }
 }
