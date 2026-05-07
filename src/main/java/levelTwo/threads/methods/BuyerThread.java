@@ -3,7 +3,6 @@ package levelTwo.threads.methods;
 import java.util.Queue;
 
 public class BuyerThread implements Runnable {
-
     private final Queue<Cashbox> cashboxes;
     public BuyerThread(Queue<Cashbox> cashboxes) {
         this.cashboxes = cashboxes;
