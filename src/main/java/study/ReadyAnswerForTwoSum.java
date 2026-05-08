@@ -36,7 +36,7 @@ public class ReadyAnswerForTwoSum {
 
     // Метод findElementsThatSumTo принимает массив data и число k — сумму, которую мы ищем.
     public static void findElementsThatSumTo(int data[], int k) {
-        //Создаётся массив списков arrayK длиной k+1.
+        // Создаётся массив списков arrayK длиной k+1.
         //Каждый индекс i в этом массиве будет хранить список индексов элементов в data, равных i.
         //Это список индексов всех элементов массива data, у которых значение = i.
         //Соответственно, arrayK[k - i] — это те, у кого значение k - i.
