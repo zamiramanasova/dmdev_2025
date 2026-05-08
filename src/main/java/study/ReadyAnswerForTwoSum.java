@@ -48,7 +48,7 @@ public class ReadyAnswerForTwoSum {
         // Проходим по всем элементам data.
         // Если элемент data[i] меньше или равен k, добавляем его индекс i
         // в соответствующий список arrayK[data[i]].
-        //Например, если data[i] == 3, а i == 5, то в arrayK[3] будет храниться 5.
+        // Например, если data[i] == 3, а i == 5, то в arrayK[3] будет храниться 5.
         for (int i = 0; i < data.length; i++) {
             if (data[i] <= k)
                 arrayK[data[i]].add(i);
