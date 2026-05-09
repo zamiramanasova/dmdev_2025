@@ -64,7 +64,7 @@ public class ReadyAnswerForTwoSum {
         for (int i = 0; i < arrayK.length / 2; i++) {
             // Что делает if (!arrayK[i].isEmpty() && !arrayK[k - i].isEmpty())?
             // Этот if проверяет:
-            //Есть ли в массиве элементы со значением i
+            // Есть ли в массиве элементы со значением i
             //и одновременно есть ли элементы со значением k - i
             //Если и те, и другие есть, тогда можно составить пары их индексов и вывести.
             if (!arrayK[i].isEmpty() && !arrayK[k - i].isEmpty()) {
