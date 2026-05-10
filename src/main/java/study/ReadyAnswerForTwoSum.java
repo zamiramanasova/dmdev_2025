@@ -74,7 +74,7 @@ public class ReadyAnswerForTwoSum {
                     for (Object otherIndex : arrayK[k - i])
                         System.out.println("Numbers at indeces [" + index.toString() + ", " + otherIndex.toString() + "] add up to " + k + ".");
             }
-            //Допустим:
+            // Допустим:
             //int[] data = {1, 2, 3, 4};
             //int k = 5;
             //Мы хотим найти пары: a + b = 5
