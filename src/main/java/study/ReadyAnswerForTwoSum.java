@@ -80,7 +80,7 @@ public class ReadyAnswerForTwoSum {
             // Мы хотим найти пары: a + b = 5
             // Возможные пары значений:
             // (1, 4)
-            //(2, 3)
+            // (2, 3)
             //Внутри arrayK будет:
             //arrayK[1] = [0]
             //arrayK[2] = [1]
