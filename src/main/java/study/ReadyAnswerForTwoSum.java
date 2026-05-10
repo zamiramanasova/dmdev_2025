@@ -82,7 +82,7 @@ public class ReadyAnswerForTwoSum {
             // (1, 4)
             // (2, 3)
             // Внутри arrayK будет:
-            //arrayK[1] = [0]
+            // arrayK[1] = [0]
             //arrayK[2] = [1]
             //arrayK[3] = [2]
             //arrayK[4] = [3]
