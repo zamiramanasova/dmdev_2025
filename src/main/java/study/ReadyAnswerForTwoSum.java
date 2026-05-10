@@ -69,7 +69,7 @@ public class ReadyAnswerForTwoSum {
             // Если и те, и другие есть, тогда можно составить пары их индексов и вывести.
             if (!arrayK[i].isEmpty() && !arrayK[k - i].isEmpty()) {
                 // Перебираем все комбинации индексов между arrayK[i] и arrayK[k-i].
-                //Выводим пары индексов, сумма значений которых равна k.
+                // Выводим пары индексов, сумма значений которых равна k.
                 for (Object index : arrayK[i])
                     for (Object otherIndex : arrayK[k - i])
                         System.out.println("Numbers at indeces [" + index.toString() + ", " + otherIndex.toString() + "] add up to " + k + ".");
