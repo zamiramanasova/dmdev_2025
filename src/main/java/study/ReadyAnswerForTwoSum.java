@@ -79,7 +79,7 @@ public class ReadyAnswerForTwoSum {
             // int k = 5;
             // Мы хотим найти пары: a + b = 5
             // Возможные пары значений:
-            //(1, 4)
+            // (1, 4)
             //(2, 3)
             //Внутри arrayK будет:
             //arrayK[1] = [0]
