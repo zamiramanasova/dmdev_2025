@@ -85,7 +85,7 @@ public class ReadyAnswerForTwoSum {
             // arrayK[1] = [0]
             // arrayK[2] = [1]
             // arrayK[3] = [2]
-            //arrayK[4] = [3]
+            // arrayK[4] = [3]
             //Теперь в цикле:
             //Когда i = 1:
             //k - i = 4
