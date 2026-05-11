@@ -90,7 +90,7 @@ public class ReadyAnswerForTwoSum {
             // Когда i = 1:
             // k - i = 4
             // arrayK[1] = [0], arrayK[4] = [3]
-            //✅ оба не пусты → ищем все пары [0,3]
+            // ✅ оба не пусты → ищем все пары [0,3]
             //Когда i = 2:
             //k - i = 3
             //arrayK[2] = [1], arrayK[3] = [2]
