@@ -88,7 +88,7 @@ public class ReadyAnswerForTwoSum {
             // arrayK[4] = [3]
             // Теперь в цикле:
             // Когда i = 1:
-            //k - i = 4
+            // k - i = 4
             //arrayK[1] = [0], arrayK[4] = [3]
             //✅ оба не пусты → ищем все пары [0,3]
             //Когда i = 2:
