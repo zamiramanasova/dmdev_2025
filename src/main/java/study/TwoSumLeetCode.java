@@ -21,5 +21,4 @@ public class TwoSumLeetCode {
         }
         return resultarray;
     }
-
 }
