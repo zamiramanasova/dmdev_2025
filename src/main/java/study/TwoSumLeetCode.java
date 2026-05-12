@@ -1,7 +1,7 @@
 package study;
 
 import java.util.Arrays;
-import java.util.Scanner;
+
 
 public class TwoSumLeetCode {
     public static void main(String[] args) {
