@@ -14,6 +14,5 @@ public class ArrayListRunner {
 
         System.out.println(integers.get(5));
         System.out.println(integers.contains(40));
-
     }
 }
