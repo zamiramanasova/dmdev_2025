@@ -49,6 +49,5 @@ public class RecOnTheClass {
         }
         rec(ind + 1, true, arr);
         rec(ind + 1, false, arr);
-
     }
 }
