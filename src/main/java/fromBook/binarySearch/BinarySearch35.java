@@ -18,7 +18,7 @@ public class BinarySearch35 {
             if (nums[mid] == target) {
                 return mid; // нашли число
             } else if (nums[mid] < target) {
-                left = mid + 1; //ищем справа
+                left = mid + 1; // ищем справа
             } else {
                 right = mid - 1; //ищем слева
             }
