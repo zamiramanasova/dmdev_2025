@@ -36,6 +36,7 @@ public class BinarySearch704 {
         return -1;
     }
 }
+
 /**
  * РАЗБОР
  * Массив: [-1, 0, 3, 5, 9, 12]
