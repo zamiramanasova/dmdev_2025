@@ -10,7 +10,7 @@ public class KokoEatingBananas875 {
     public static int minEatingSpeed(int[] piles, int h) {
 
         int left = 1; // левый указатель
-        int right = 0;//правый
+        int right = 0;// правый
         for (int pile : piles) right = Math.max(right, pile); //вычисление все кучи
 
         while (left < right) {
