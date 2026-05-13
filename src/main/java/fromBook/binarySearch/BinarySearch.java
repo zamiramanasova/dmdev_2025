@@ -21,7 +21,7 @@ public class BinarySearch {
             // если значение найдено то возращаем средний элемент
             if (guess == item)
                 return mid;
-            //если значение много то high = mid - 1
+            // если значение много то high = mid - 1
             if (guess > item)
                 high = mid - 1;
             //иначе
