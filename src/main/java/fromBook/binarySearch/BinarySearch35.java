@@ -20,7 +20,7 @@ public class BinarySearch35 {
             } else if (nums[mid] < target) {
                 left = mid + 1; // ищем справа
             } else {
-                right = mid - 1; //ищем слева
+                right = mid - 1; // ищем слева
             }
         }
         // если не нашли, left показывает индекс для вставки
