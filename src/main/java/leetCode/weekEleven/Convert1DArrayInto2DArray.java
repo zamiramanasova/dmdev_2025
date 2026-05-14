@@ -13,7 +13,7 @@ public class Convert1DArrayInto2DArray {
         // Если длина original не подходит (не равна m * n), то возвращает пустой массив.
         // Пример:
         // original.length = 6, m=2, n=3 → ок
-        //original.length = 5, m=2, n=3 → нельзя → вернём пустой
+        // original.length = 5, m=2, n=3 → нельзя → вернём пустой
         if (original.length != m * n ) {
             return new int[0][0];
         }
