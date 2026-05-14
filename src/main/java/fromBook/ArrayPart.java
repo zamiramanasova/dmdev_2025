@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class ArrayPart {
-    //код не работает
+    // код не работает
     public static void main(String[] args) {
         int[] arr = new int[] {5,3,6,2,10};
         System.out.println(selectionSort(arr));
