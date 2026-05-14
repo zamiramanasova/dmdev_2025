@@ -21,7 +21,7 @@ public class RecurtionOntheClass {
         } else if (x == n) {
             return true;
         }
-        //x <= n
+        // x <= n
         //option 1. +3
         if (rec(x + 5)) {
             return true;
