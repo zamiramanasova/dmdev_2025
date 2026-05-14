@@ -15,7 +15,7 @@ public class KokoEatingBananas875 {
 
         while (left < right) {
             int mid = left + (right - left) / 2;
-            int time = 0;//время
+            int time = 0;// время
             for (int pile : piles) {// проверяем, успевает ли Коко съесть все бананы за h часов
                 time += (pile + mid - 1) / mid;
             }
