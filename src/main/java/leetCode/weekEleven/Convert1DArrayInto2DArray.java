@@ -9,7 +9,7 @@ public class Convert1DArrayInto2DArray {
     }
 
     public static int[][] construct2DArray(int[] original, int m, int n) {
-        //Он преобразует одномерный массив original в двумерный массив размером m × n.
+        // Он преобразует одномерный массив original в двумерный массив размером m × n.
         //Если длина original не подходит (не равна m * n), то возвращает пустой массив.
         //Пример:
         //original.length = 6, m=2, n=3 → ок
