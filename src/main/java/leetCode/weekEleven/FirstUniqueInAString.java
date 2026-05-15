@@ -26,7 +26,7 @@ public class FirstUniqueInAString {
         char[] charsArray = s.toCharArray();
         // Внешний цикл выбирает каждый символ i.
         // Внутренний цикл проверяет все остальные позиции j.
-        //Если где-то нашли charsArray[i] == charsArray[j] (но i ≠ j) → это не уникальный символ.
+        // Если где-то нашли charsArray[i] == charsArray[j] (но i ≠ j) → это не уникальный символ.
         //Если прошли и не нашли дубликатов → возвращаем индекс i.
         for (int i = 0; i < charsArray.length; i++) {
             // В нашем коде переменная isUnique — это флаг.
