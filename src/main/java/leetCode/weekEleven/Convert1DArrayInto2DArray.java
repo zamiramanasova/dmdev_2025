@@ -29,7 +29,7 @@ public class Convert1DArrayInto2DArray {
         // ✅ Внутренний цикл по столбцам j
         // На каждой итерации:
         // записываем original[k] в текущую ячейку ans[i][j]
-        //увеличиваем k на 1
+        // увеличиваем k на 1
         for (int i = 0; i < m; i++) {
             for (int j = 0; j < n; j++) {
                 ans[i][j] = original[k++];
