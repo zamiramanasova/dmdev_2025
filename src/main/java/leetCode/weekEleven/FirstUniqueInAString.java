@@ -43,6 +43,7 @@ public class FirstUniqueInAString {
             }
         }
         return -1;
+
         // Медленнее (O(N^2)) для очень длинных строк.
     }
 }
