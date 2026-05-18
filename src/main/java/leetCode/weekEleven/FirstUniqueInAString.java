@@ -19,7 +19,6 @@ public class FirstUniqueInAString {
 
     public static int firstUniqueChar(String s) {
         // Посчитать количество каждого символа в строке.
-
         // Найти первый символ, который встретился ровно 1 раз.
         // Вернуть его индекс.
         char[] charsArray = s.toCharArray();
