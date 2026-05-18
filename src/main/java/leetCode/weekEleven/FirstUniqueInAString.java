@@ -31,7 +31,7 @@ public class FirstUniqueInAString {
         for (int i = 0; i < charsArray.length; i++) {
             // В нашем коде переменная isUnique — это флаг.
             //
-            //Он помогает нам запомнить: «уникальный ли текущий символ или нет».
+            // Он помогает нам запомнить: «уникальный ли текущий символ или нет».
             boolean isUnique = true;
             for (int j = 0; j < charsArray.length; j++) {
                 //если индекс i не равно индексу j  и элемент charsArray[i] равно элементу charsArray[j]
