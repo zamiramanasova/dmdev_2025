@@ -21,7 +21,7 @@ public class MajorityElement {
     // считаем все 2 → count = 4
     // 4 > 3 → возвращаем 2
     // Характеристика	Значение
-    //Время	O(n²)
+    // Время	O(n²)
     //Память	O(1)
 
     public static int majorityElement(int[] nums) {
