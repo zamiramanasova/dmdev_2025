@@ -22,7 +22,7 @@ public class MajorityElement {
     // 4 > 3 → возвращаем 2
     // Характеристика	Значение
     // Время	O(n²)
-    //Память	O(1)
+    // Память	O(1)
 
     public static int majorityElement(int[] nums) {
        int n = nums.length;
