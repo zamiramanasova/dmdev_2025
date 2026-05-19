@@ -26,7 +26,7 @@ public class MajorityElement {
 
     public static int majorityElement(int[] nums) {
        int n = nums.length;
-       //проходим по каждому элементу массива
+       // проходим по каждому элементу массива
         //Выбираем каждый элемент массива как кандидат.
        for (int i = 0; i < n; i++) {
            int count = 0;
