@@ -31,7 +31,7 @@ public class MajorityElement {
        for (int i = 0; i < n; i++) {
            int count = 0;
            // Для выбранного кандидата считаем все его вхождения в массиве.
-           //считаем сколько раз nums[i] встречается в массиве
+           // считаем сколько раз nums[i] встречается в массиве
            for (int j = 0; j < n; j++) {
                if (nums[j] == nums[i]) {
                    count++;
