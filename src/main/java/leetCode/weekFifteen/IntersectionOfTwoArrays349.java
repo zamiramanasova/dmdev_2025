@@ -68,7 +68,7 @@ public class IntersectionOfTwoArrays349 {
         }
         return answer;
 
-        //общее
+        // общее
         // tm comp = O(n + m)
         // space comp O(n + m)
     }
