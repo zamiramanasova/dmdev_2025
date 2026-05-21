@@ -47,7 +47,7 @@ public class IntersectionOfTwoArrays349 {
         Set<Integer> set_1 = new HashSet<>();
         Set<Integer> ans = new HashSet<>();
 
-        //весь цикл O(n)
+        // весь цикл O(n)
         for (int i = 0; i < n; i++) {
             set_1.add(nums1[i]); //O(1) in average
         }
