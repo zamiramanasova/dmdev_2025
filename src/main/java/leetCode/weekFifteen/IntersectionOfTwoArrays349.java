@@ -54,7 +54,7 @@ public class IntersectionOfTwoArrays349 {
 
         // весь цикл O(m)
         for (int i = 0; i < m; i++) {
-            if (set_1.contains(nums2[i])) { //O(1) in average
+            if (set_1.contains(nums2[i])) { // O(1) in average
                 ans.add(nums2[i]); //O(1) in average
             }
         }
