@@ -17,7 +17,7 @@ public class IntersectionOfTwoArrays349 {
         System.out.println(Arrays.toString(intersection2(nums1, nums2)));
     }
 
-    //method brute force
+    // method brute force
     public static int[] intersection(int[] nums1, int[] nums2) {
         int n = nums1.length;
         int m = nums2.length;
