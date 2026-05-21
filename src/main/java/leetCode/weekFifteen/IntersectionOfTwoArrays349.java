@@ -49,7 +49,7 @@ public class IntersectionOfTwoArrays349 {
 
         // весь цикл O(n)
         for (int i = 0; i < n; i++) {
-            set_1.add(nums1[i]); //O(1) in average
+            set_1.add(nums1[i]); // O(1) in average
         }
 
         // весь цикл O(m)
