@@ -15,7 +15,7 @@ public class ReverseBits {
         // Делает строку длиной ровно 32 символа.
         // Формат %32s означает:
         // «Сделай ширину ровно 32, выравни вправо.»
-        //Integer.toBinaryString(n) → двоичная строка без ведущих нулей
+        // Integer.toBinaryString(n) → двоичная строка без ведущих нулей
         //⭐ String.format("%32s", ...) → дополняет её слева пробелами до длины 32
         //⭐ .replace(' ', '0') → меняет пробелы на нули
        String bits = String.format("%32s", Integer.toBinaryString(n)).replace(' ', '0');;
