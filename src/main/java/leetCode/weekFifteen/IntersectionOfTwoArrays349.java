@@ -25,7 +25,7 @@ public class IntersectionOfTwoArrays349 {
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < m; j++) {
                 if (nums1[i] == nums2[j]) {
-                    set.add(nums1[i]); //O(1) в среднем
+                    set.add(nums1[i]); // O(1) в среднем
                 }
             }
         }
