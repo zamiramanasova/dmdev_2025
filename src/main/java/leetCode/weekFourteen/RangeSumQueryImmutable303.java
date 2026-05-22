@@ -35,5 +35,4 @@ public class RangeSumQueryImmutable303 {
             return prefix[right];
         } return prefix[right] - prefix[left - 1];
     }
-
 }
