@@ -48,5 +48,4 @@ public class BestTimeToBuyAndSellStock {
        return maxProfit; // возврат максимального профита
 
    }
-
 }
