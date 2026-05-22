@@ -32,5 +32,5 @@ public class SummaryRanges228 {
             answer.add(Integer.toString(range_start) + "->" + Integer.toString(range_end));
         }
         return answer;
-     }
+    }
 }
