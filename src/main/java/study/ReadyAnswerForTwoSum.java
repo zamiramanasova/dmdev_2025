@@ -15,7 +15,7 @@ import java.util.List;
 public class ReadyAnswerForTwoSum {
     public static void main(String[] args) {
         int[] a = new int[] {1,2,3,4,5};
-        //findElementsThatSumTo(a, 5);
+        // findElementsThatSumTo(a, 5);
         System.out.println(Arrays.toString(twoSum(a, 5)));
     }
 
