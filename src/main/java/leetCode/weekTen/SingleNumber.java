@@ -1,6 +1,6 @@
 package leetCode.weekTen;
 
-import java.util.*;
+
 
 /**
  * При наличии непустого массива целых чисел каждый элемент
