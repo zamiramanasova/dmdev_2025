@@ -49,6 +49,7 @@ public class TwoSum {
         return new int[]{};
     }
 }
+
 // public static int[] twoSum(int[] nums, int target) {
 //        int[] array = new int[2];
 //        for (int i = 0; i < nums.length; i++) {
