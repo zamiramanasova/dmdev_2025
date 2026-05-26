@@ -42,7 +42,7 @@ public class MoveZero {
             }
             // 1) num = 0
             // 0 == 0 → пропускаем
-            //insertPos остается 0
+            // insertPos остается 0
 
             //2) num = 1
             //1 != 0 → пишем 1 на insertPos
