@@ -51,7 +51,7 @@ public class MoveZero {
 
             // 3) num = 0
             // пропускаем
-            //insertPos = 1
+            // insertPos = 1
 
             //4) num = 3
             //3 != 0 → пишем 3 на insertPos
