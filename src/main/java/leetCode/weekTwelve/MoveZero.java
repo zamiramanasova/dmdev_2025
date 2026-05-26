@@ -50,7 +50,7 @@ public class MoveZero {
             // insertPos = 1
 
             // 3) num = 0
-            //пропускаем
+            // пропускаем
             //insertPos = 1
 
             //4) num = 3
