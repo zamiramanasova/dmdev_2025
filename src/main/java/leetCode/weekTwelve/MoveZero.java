@@ -57,7 +57,7 @@ public class MoveZero {
             // 3 != 0 → пишем 3 на insertPos
             // nums[1] = 3
             // insertPos = 2
-            //Массив: [1, 3, 0, 3, 12]
+            // Массив: [1, 3, 0, 3, 12]
 
             // 5) num = 12
             //12 != 0 → пишем 12 на insertPos
