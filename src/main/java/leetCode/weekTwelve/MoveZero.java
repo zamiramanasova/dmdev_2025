@@ -71,7 +71,7 @@ public class MoveZero {
         }
         // "Пока insertPos меньше длины массива, вставляй 0
         // в эту позицию и увеличивай insertPos."
-        //Как только insertPos == nums.length,
+        // Как только insertPos == nums.length,
         // то есть когда мы достигли конца массива.
         while (insertPos < nums.length) {
             nums[insertPos] = 0;
