@@ -67,7 +67,7 @@ public class MoveZero {
 
             // После первого цикла:
             // nums = [1, 3, 12, 3, 12]
-            //insertPos = 3
+            // insertPos = 3
         }
         //"Пока insertPos меньше длины массива, вставляй 0
         // в эту позицию и увеличивай insertPos."
