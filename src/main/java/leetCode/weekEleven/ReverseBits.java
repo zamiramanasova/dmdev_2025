@@ -28,7 +28,7 @@ public class ReverseBits {
 
        String newBits = String.valueOf(newCharBits);
 
-        return Integer.parseUnsignedInt(newBits, 2);
+       return Integer.parseUnsignedInt(newBits, 2);
 
     }
 }
