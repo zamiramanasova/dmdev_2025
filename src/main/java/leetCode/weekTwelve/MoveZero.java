@@ -77,6 +77,5 @@ public class MoveZero {
             nums[insertPos] = 0;
             insertPos++;
         }
-
     }
 }
