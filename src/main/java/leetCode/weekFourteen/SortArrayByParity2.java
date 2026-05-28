@@ -19,7 +19,7 @@ public class SortArrayByParity2 {
             } else if (nums[oddIndex] % 2 == 1) {
                 oddIndex += 2;
             } else {
-                //swap
+                // swap
                 int temp = nums[evenIndex];
                 nums[evenIndex] = nums[oddIndex];
                 nums[oddIndex] = temp;
