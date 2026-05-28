@@ -11,7 +11,7 @@ public class KokoEatingBananas875 {
 
         int left = 1; // левый указатель
         int right = 0;// правый
-        for (int pile : piles) right = Math.max(right, pile); //вычисление все кучи
+        for (int pile : piles) right = Math.max(right, pile); // вычисление все кучи
 
         while (left < right) {
             int mid = left + (right - left) / 2;
