@@ -39,7 +39,7 @@ public class SubarraySumEqualsK560 {
                     sum += nums[i];
                 }
                 if (sum == k) {
-                    //we found new (left, right) subarray
+                    // we found new (left, right) subarray
                     ans++;
                 }
             }
