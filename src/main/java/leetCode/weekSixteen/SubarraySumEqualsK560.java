@@ -17,7 +17,7 @@ public class SubarraySumEqualsK560 {
          * subbarray(nums, L=2, R=2, R=4) = [nums[2], nums[3], nums[4]]
          * sum(subarray(nums, L, R)) =
          * sum(subarray(nums, 0, R)) - sum(subarray(nums, 0, L-1))
-         *  (nums[0] + nums[1] + ... + nums[R] - (nums[0] + nums[1] + ... + nums[L-1])
+         * (nums[0] + nums[1] + ... + nums[R] - (nums[0] + nums[1] + ... + nums[L-1])
          *  prefix_sum[R]                      - prefix_sum[L-1]
          *  = nums[L] + nums[L+1] + ... + nums[R]
          * 1. sum of subarrays -> compute prefix sums, then answer for subarray (L,R)
