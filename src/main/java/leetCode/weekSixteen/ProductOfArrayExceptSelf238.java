@@ -13,7 +13,7 @@ public class ProductOfArrayExceptSelf238 {
 
         // [a,b,c,d,e,f,g,h,i,j]
         //  префикс|i|suffix
-        //prefix_mul[i-1] = a*b*c*d
+        // prefix_mul[i-1] = a*b*c*d
         //suffix_mul[i+1] = f*g*h*i*j
         int n = nums.length;
         int[] prefix_mul = new int[n];
