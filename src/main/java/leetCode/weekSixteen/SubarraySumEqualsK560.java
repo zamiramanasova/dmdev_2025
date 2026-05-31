@@ -91,7 +91,7 @@ public class SubarraySumEqualsK560 {
         hs.put(0,1);
 
         for (int right = 0; right < n; right++) {
-            ans += hs.getOrDefault(pref[right] - k, 0);//O(1) is average
+            ans += hs.getOrDefault(pref[right] - k, 0);// O(1) is average
 
             hs.put(pref[right], hs.getOrDefault(pref[right], 0) + 1);
         }
