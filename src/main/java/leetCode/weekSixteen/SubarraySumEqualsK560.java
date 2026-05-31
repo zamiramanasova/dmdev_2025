@@ -75,7 +75,7 @@ public class SubarraySumEqualsK560 {
     }
 
     public static int subarraySum3(int[] nums, int k) {
-        //решение за 0(n)
+        // решение за 0(n)
         int n = nums.length;
         int ans = 0;
 
