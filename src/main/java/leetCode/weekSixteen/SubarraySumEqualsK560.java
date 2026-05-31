@@ -48,7 +48,7 @@ public class SubarraySumEqualsK560 {
     }
 
     public static int subarraySum2(int[] nums, int k) {
-        //решение за квадрат
+        // решение за квадрат
         int n = nums.length;
         int ans = 0;
         // TC: O(n^2)
